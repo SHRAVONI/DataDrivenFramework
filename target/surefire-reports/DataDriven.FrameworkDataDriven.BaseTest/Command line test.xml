@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="LAPTOP-ONO7GG0H" name="DataDriven.FrameworkDataDriven.BaseTest" tests="1" failures="0" timestamp="4 Nov 2019 06:11:31 GMT" time="0.006" errors="0">
+  <testcase name="openBrowser" time="0.003" classname="DataDriven.FrameworkDataDriven.BaseTest">
+    <skipped/>
+  </testcase>
+</testsuite>

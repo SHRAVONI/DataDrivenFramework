@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testNGLearning]">
+  <test name="simpleTest(failed)">
+    <classes>
+      <class name="DataDriven.Framework.TestCases.Action">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="testOFaction"/>
+        </methods>
+      </class> <!-- DataDriven.Framework.TestCases.Action -->
+    </classes>
+  </test> <!-- simpleTest(failed) -->
+</suite> <!-- Failed suite [testNGLearning] -->
