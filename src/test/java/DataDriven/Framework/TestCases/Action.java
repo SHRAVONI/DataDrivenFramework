@@ -11,9 +11,13 @@ public class Action extends BaseTest{
 	{	
 	openBrowser("chrome");
 	navigate("appurl");
-	type("Input_xpath","soni");
-	click("btnEnter");
+	//type("Input_xpath","soni");
+	click("Btn_id");
+	isElementPresent("Btn_id");
 	verifyTitle();
+	reportFail("Report Failure method");
+	random_uniqueno();
+	
 	browserClose();
 	
 	

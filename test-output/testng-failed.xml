@@ -5,7 +5,6 @@
     <classes>
       <class name="DataDriven.Framework.TestCases.Action">
         <methods>
-          <include name="openBrowser"/>
           <include name="testOFaction"/>
         </methods>
       </class> <!-- DataDriven.Framework.TestCases.Action -->

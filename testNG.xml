@@ -3,7 +3,9 @@
 <suite name="testNGLearning">
 <test name="simpleTest">
 <classes>
+<class name="DataDriven.FrameworkDataDriven.BaseTest" />
 <class name="DataDriven.Framework.TestCases.Action" />
+<class name="DataDriven.Framework.TestCases.Login" />
  </classes>
  </test>
 </suite>
