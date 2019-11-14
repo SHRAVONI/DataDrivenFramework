@@ -13,10 +13,10 @@ public class Action extends BaseTest{
 	navigate("appurl");
 	//type("Input_xpath","soni");
 	click("Btn_id");
-	isElementPresent("Btn_id");
+	/*isElementPresent("Btn_id");
 	verifyTitle();
 	reportFail("Report Failure method");
-	random_uniqueno();
+	random_uniqueno();*/
 	
 	browserClose();
 	

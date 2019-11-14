@@ -169,7 +169,11 @@ public class BaseTest {
 					reportFail("Element Not Found "+locatorKey);
 				}
 				if(elementList.size()==0)
+				{
+					System.out.println("Not Found"+elementList);
+				
 					return false;
+				}
 				
 				else
 					extent.log(LogStatus.PASS,"Element Present() is completed.")	;
@@ -198,7 +202,7 @@ public class BaseTest {
 	{
 		extent.log(LogStatus.FAIL,"Failed");
 		takeScreenshot();
-		Assert.fail();
+	//	Assert.fail();
 
 	}
 	public void reportPass(String msg)
